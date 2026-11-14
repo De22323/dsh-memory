@@ -1,8 +1,12 @@
 # dsh-memory
 
+[![ci](https://github.com/De22323/dsh-memory/actions/workflows/ci.yml/badge.svg)](https://github.com/De22323/dsh-memory/actions/workflows/ci.yml) [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 把「AI 的长期记忆」做成**你自己工作区里的一堆纯文本文件**，而不是某家公司的数据库。
 
 一个 DeepSeek Harness 插件：六个记忆工具 + 定时沉降，自带全部脚本，装上就能用。
+
+> Local-first long-term memory for DeepSeek Harness agents: plain-text JSONL in your own workspace, human-readable, human-editable, no server, no vector database.
 
 ---
 
