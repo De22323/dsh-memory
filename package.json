@@ -1,0 +1,39 @@
+{
+  "name": "dsh-memory",
+  "version": "0.2.0",
+  "description": "DSH 插件：本地记忆框架 —— memory_add / memory_search / memory_get / memory_tree / memory_feedback / memory_stats 六个工具 + 定时沉降、沉降与盒子结算；自带脚本，不依赖工作区 tools\\ 目录",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/De22323/dsh-memory"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "scripts/",
+    "template/",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "cordis-plugin",
+    "memory",
+    "agent-memory"
+  ]
+}
